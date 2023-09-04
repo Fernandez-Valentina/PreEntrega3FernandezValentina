@@ -230,6 +230,20 @@ header .caja-info .boton:hover {
 }
 
 /*Servicios*/
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+nav ul nav ul li a {
+  padding: 10px;
+  background-color: #7d97b4;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -420,7 +434,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  overflow-x: auto; /* Agrega scroll horizontal si es necesario en pantallas pequeñas */
+  overflow-x: hidden; /* Agrega scroll horizontal si es necesario en pantallas pequeñas */
 }
 
 .barra .bmenu ul li {
@@ -488,7 +502,7 @@ body {
   height: 100%;
 }
 
-/* Estilos para las secciones de imágenes y texto */
+/*Estilos para las secciones de imágenes y texto */
 .wrap {
   padding: 20px;
   background-color: rgb(66, 88, 104);
@@ -524,6 +538,8 @@ body {
   .imagenes-nosotros {
     overflow-x: hidden;
     margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /*FOOTER*/
